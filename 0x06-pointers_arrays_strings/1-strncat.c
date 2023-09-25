@@ -7,8 +7,7 @@
  * @n: input value
  * Return: dest
  */
- char *_strncat(char *dest, char *src, int n)
-r *dest, char *src, int 
+char *_strncat(char *dest, char *src, int n)
 {
 int i;
 int j;
@@ -20,7 +19,8 @@ i++
 j = 0;
 while (j < n && src[j] != '\0''))
 dest[i] = src[j];
-i++;j++;
+i++;
+j++;
 }
 dest[i] = '\0';
 return (dest);
