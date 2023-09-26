@@ -25,6 +25,7 @@ if (i < j)
 printf("%02x", *(b + o + i));
 else
 printf("  ");
+}
 if (i % 2)
 {
 printf(" ");
